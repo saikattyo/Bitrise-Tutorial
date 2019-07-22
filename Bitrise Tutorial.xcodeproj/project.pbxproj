@@ -14,6 +14,7 @@
 		FC0981E122E48EEF002B502F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC0981DF22E48EEF002B502F /* LaunchScreen.storyboard */; };
 		FC0981EC22E48EF0002B502F /* Bitrise_TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0981EB22E48EF0002B502F /* Bitrise_TutorialTests.swift */; };
 		FC0981F722E48EF0002B502F /* Bitrise_TutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0981F622E48EF0002B502F /* Bitrise_TutorialUITests.swift */; };
+		FC09820522E4A37A002B502F /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC09820422E4A37A002B502F /* test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FC0981F222E48EF0002B502F /* Bitrise TutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bitrise TutorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC0981F622E48EF0002B502F /* Bitrise_TutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bitrise_TutorialUITests.swift; sourceTree = "<group>"; };
 		FC0981F822E48EF0002B502F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC09820422E4A37A002B502F /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				FC0981D622E48EED002B502F /* AppDelegate.swift */,
 				FC0981D822E48EED002B502F /* ViewController.swift */,
+				FC09820422E4A37A002B502F /* test.swift */,
 				FC0981DA22E48EED002B502F /* Main.storyboard */,
 				FC0981DD22E48EEF002B502F /* Assets.xcassets */,
 				FC0981DF22E48EEF002B502F /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC0981D922E48EED002B502F /* ViewController.swift in Sources */,
+				FC09820522E4A37A002B502F /* test.swift in Sources */,
 				FC0981D722E48EED002B502F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
